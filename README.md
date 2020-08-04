@@ -8,5 +8,5 @@
 
 `export OMP_NUM_THREADS=3
 
-time FastTreeMP -nt -nosupport  -nome  -noml -log true_me.fasttree.log -intree backbone_ml.nwk < ref.fa > true_me.fasttree`
+FastTreeMP -nt -nosupport  -nome  -noml -log true_me.fasttree.log -intree backbone_ml.nwk < ref.fa > true_me.fasttree`
 
