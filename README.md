@@ -10,3 +10,6 @@
 
 FastTreeMP -nt -nosupport  -nome  -noml -log true_me.fasttree.log -intree backbone_ml.nwk < ref_nothird.fa > true_me.fasttree`
 
+6. Queries can be placed  on the backbone tree using the following command:
+
+`run_apples.py -t true_me.fasttree -s ref_nothird.fa -q query_nothird.fa -m FM -c MLSE -f 0.2 -b 25 -o apples.jplace`
